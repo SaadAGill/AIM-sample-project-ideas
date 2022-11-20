@@ -16,21 +16,21 @@ The size of the file is 1.95 GB. It contains 70,000 files, the format of which i
 ### Arcitecture Proposal
 ![alt text](1.png)
 
-The method is to give an original value to the conventional kernels which have 3x3 size.
+1. The method is to give an original value to the conventional kernels which have 3x3 size.
 
-We will use the kernels to cover different human expressions in the selected pictures. At the moment each of the Kernels is mapping with the 9 pixels of the picture. 
+2. We will use the kernels to cover different human expressions in the selected pictures. At the moment each of the Kernels is mapping with the 9 pixels of the picture. 
 
-The next step would be the convolution of the picture by the Kernels. 
+3. The next step would be the convolution of the picture by the Kernels. 
 
-After convoluting several times, pooling and activating would take place. 
+4. After convoluting several times, pooling and activating would take place. 
 
-Next, we'll get the picture which will be opened up to form the input of the fully-connected layers.
+5. Next, we'll get the picture which will be opened up to form the input of the fully-connected layers.
 
-Furthermore, we use the fully-connected neural networks to classify the image.
+6. Furthermore, we use the fully-connected neural networks to classify the image.
 
-The accuracy rate may be low in the beginning so we will have to use the gradient decline algorithm to train the model that is to update the weight parameters each time we select the batch of the pictures.
+7. The accuracy rate may be low in the beginning so we will have to use the gradient decline algorithm to train the model that is to update the weight parameters each time we select the batch of the pictures.
 
-Lastly, we'll get a well trained classification model.
+8. Lastly, we'll get a well trained classification model.
 
 
 
